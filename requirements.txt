@@ -1,0 +1,4 @@
+torch==1.7.0+cu110
+jieba==0.42.1
+matplotlib==3.2.2
+nltk==3.5
