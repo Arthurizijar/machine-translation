@@ -4,10 +4,14 @@
 
 ### 代码依赖
 
-torch==1.7.0+cu110
-jieba==0.42.1
-matplotlib==3.2.2
-nltk==3.5
+本代码使用python 3.8.3开发，代码依赖torch，jieba，matplotlib和nltk运行。
+
+可使用以下命令在conda env中安装依赖环境
+
+```
+conda create -n ml python=3.8
+pip install -r requirements.txt
+```
 
 ### 代码说明
 
@@ -56,6 +60,24 @@ python demo.py
 ```
 
 执行将自动生成一百个样例，样例格式如下所示：
+
+```
+中文句子1> 她 说 她 对 你 说 “ 抱歉
+标准答案1> she said to tell you'sorry
+英文句子1> she said she said she said you
+中文句子2> 在 我 轻 嗅 爱 的 花朵 时
+标准答案2> bees buzz inside my heart
+英文句子2> and i found the the the of
+中文句子3> 好 吧 ， 男人 ， 你 上 吧
+标准答案3> all right , butch , you're up
+英文句子3> okay , you on on on your
+中文句子4> 把 枪 给 我 开枪 。 射 她
+标准答案4> give me the gun. shoot her
+英文句子4> put me to the the the her
+中文句子5> 我 就 知道 。 我 是 对 的
+标准答案5> i knew it. i was right
+英文句子5> i knew i was i'm
+```
 
 
 
