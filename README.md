@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 `prepare_data.py`文件可以利用原始文件生成`input_lang`，`output_lang`，`pairs`三个文件，其中前两个文件是源语言和目标语言的实例，主要实现序列与单词之间的互相转换；pairs保存了满足筛选条件的句子对，详细筛选条件见实验报告。
 
-由于原始数据有10M大小，因此将文件进行一次预处理后，将`prepare_data.py`生成文件利用`pickle`转换为二进制文件，二进制文件已上传至北航云盘【[下载链接]()】（无需解压，直接放在./data文件夹下即可）
+由于原始数据有10M大小，因此将文件进行一次预处理后，将`prepare_data.py`生成文件利用`pickle`转换为二进制文件，二进制文件已上传至北航云盘【[下载链接](https://bhpan.buaa.edu.cn:443/link/8844CA23421C1DA09CF61156AE571740)】（无需解压，直接放在./data文件夹下即可）
 
 #### `config.py`
 
@@ -53,7 +53,7 @@ python train.py
 
 ### 演示Demo
 
-注：演示需要训练好的翻译模型，可先运行代码进行训练，或在北航云盘【[下载链接]()】中下载训练好的模型（无需解压，直接放在./model文件夹下即可）
+注：演示需要训练好的翻译模型，可先运行代码进行训练，或在北航云盘【[下载链接](https://bhpan.buaa.edu.cn:443/link/FD99747C89C2AE843EB7CD8AB60A6A58)】中下载训练好的模型（无需解压，直接放在./model文件夹下即可）
 
 ```
 python demo.py
