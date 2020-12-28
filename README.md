@@ -1,6 +1,6 @@
 # 自然语言处理大作业
 
-本项目为2020年度秋季学期自然语言处理大作业——机器翻译的代码
+本项目为2020年度秋季学期自然语言处理大作业——机器翻译的代码，已上传github：[链接](https://github.com/Arthurizijar/machine-translation)
 
 ### 代码依赖
 
@@ -46,6 +46,11 @@ pip install -r requirements.txt
 注：当前代码中使用的batch_size为100。若出现显存溢出的情况，需要在`config.py`进行修改
 
 ```
+# 创建文件夹
+mkdir data model out
+# 处理数据，可以下载前面链接中处理好的文件，也可以运行
+python prepare_data.py
+# 开始训练
 python train.py
 ```
 
